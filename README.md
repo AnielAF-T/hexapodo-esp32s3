@@ -21,18 +21,21 @@ Robot hexápodo (6 patas, 3 servos por pata = 18 grados de libertad) controlado 
 
 ```
 hexapodo-esp32s3/
-├── control-motores/       # Control de servos vía PCA9685
-├── cinematica-inversa/    # Cálculos de cinemática inversa
-├── interfaz-grafica/      # Interfaz para control del robot
-├── docs/                  # Fotos, gifs, diagramas
+├── Galeria    # Fotos, gifs, diagramas
+├── TOMMY/    # Control de servos vía PCA9685
+    ├── cinematica-inversa/    # Cálculos de cinemática inversa
+    ├── Web_server/    # Interfaz para control del robot
+    ├── calibracion/    # codigo de calibracion de servos
+    ├── hexapodo_config    # Configuracion del robot
+    ├── pca9685    #funcionamiento de modulos PCA
+├── LICENCIA
 └── README.md
 ```
 
 ## 🚀 Cómo usarlo
 
 ```bash
-# Ejemplo — ajusta según tu setup real
-1. Clona el repo
+1. Descarga la carpeta "TOMMY" (ver codigo_completo.txt)
 2. Abre el proyecto en Arduino IDE / PlatformIO
 3. Configura los pines y la dirección I2C del PCA9685
 4. Sube el firmware al ESP32-S3
@@ -40,13 +43,13 @@ hexapodo-esp32s3/
 ```
 
 ## 📸 Galería
-
-<!-- Agrega fotos o gifs del robot caminando, la interfaz, el ensamble -->
+`Para una mejor visualizacion ver carpeta de Galeria`
+<img width="1200" height="1600" alt="3" src="https://github.com/user-attachments/assets/7d17985a-017b-4352-913a-0dad05a42de7" />
 
 ## 🔧 Posibles mejoras futuras
 
-- [ ] [Ej: agregar sensores de contacto en las patas]
-- [ ] [Ej: navegación autónoma]
+- [ ] [agregar sensores de contacto en las patas]
+- [ ] [navegación autónoma]
 
 ## 📄 Licencia
 
