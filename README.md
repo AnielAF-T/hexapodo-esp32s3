@@ -1,7 +1,6 @@
 # 🤖 Hexápodo ESP32-S3 (18 DOF)
 
-
-<!-- Reemplaza con una foto o gif del hexápodo caminando -->
+<img width="1195" height="896" alt="Hexapodo" src="https://github.com/user-attachments/assets/6c94f13f-dd2c-4212-bc01-8afc711bfea2" />
 
 ## 📋 Descripción
 
@@ -17,7 +16,7 @@ Robot hexápodo (6 patas, 3 servos por pata = 18 grados de libertad) controlado 
 
 ## 🛠️ Tecnologías
 
-`ESP32-S3` `C++ / Arduino Framework` `PCA9685` `HTML (Interfaz)``solidwork`
+`ESP32-S3` `C++ / Arduino Framework` `PCA9685` `HTML (Interfaz)` `solidwork`
 ## 📁 Estructura del repo
 
 ```
